@@ -4,3 +4,4 @@ parameters:
     en: en_US                 # English in UNITED STATES
     de: de_DE                 # German in GERMANY
     ru: ru_RU                 # Russian in Russia    
+    cs: cs_CZ                 # Czech in Czech Republic    
