@@ -50,8 +50,7 @@ class GettextTranslationExtension extends \Twig_Extension
   public static function ngettext($msgid1, $msgid2, $n)
   {
     $args = func_get_args();
-    array_splice($args, 0, 3, array(ngettext($msgid1, $msgid2, $n)));
-
+    array_splice($args, 0, 2, array(ngettext($msgid1, $msgid2, $n)));
     return call_user_func_array('sprintf', $args);
   }
 
